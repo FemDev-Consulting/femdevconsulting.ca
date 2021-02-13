@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import './assets/styles/index.css'
+
+// Create the app
+let app = createApp(App);
+
+// Mount the app
+app.mount('#app');
