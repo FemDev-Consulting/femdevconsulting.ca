@@ -29,7 +29,7 @@ module.exports = {
           900: '#5E6A67',
         },
         // The following colours deviate from the tailwind default
-        gray: colors.warmGray,
+        gray: colors.coolGray,
         green: colors.emerald,
         blue: colors.lightBlue,
         purple: colors.fuchsia,
