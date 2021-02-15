@@ -1,23 +1,22 @@
 <template>
-  <div class="relative z-10 overflow-hidden">
+  <div class="relative overflow-hidden z-20">
     <div class="container">
       <div class="w-full lg:w-2/3 py-40 md:py-52 md:ml-10 xl:ml-40 bg-gray-200s ">
         <div class="sm:text-center lg:text-left">
-          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-            <span class="block xl:inline">Data to enrich your</span>
-            <span class="block text-indigo-600 xl:inline">online business</span>
+          <h1 class="text-4xl tracking-tight font-extrabold text-brand-green-800 sm:text-5xl md:text-6xl">
+            Data to enrich your online business
           </h1>
-          <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+          <p class="mt-3 leading-loose text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
           </p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
-              <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+              <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-green-600 hover:bg-brand-green-700 md:py-4 md:text-lg md:px-10">
                 Get started
               </a>
             </div>
             <div class="mt-3 sm:mt-0 sm:ml-3">
-              <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
+              <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-brand-green-700 bg-brand-green-100 hover:bg-brand-green-300 md:py-4 md:text-lg md:px-10">
                 Live demo
               </a>
             </div>
@@ -25,12 +24,12 @@
         </div>
       </div>
     </div>
-    <div class="hidden absolute bottom-0 top-0 right-0 lg:flex items-center w-1/2">
+    <div class="hidden absolute bottom-0 top-0 right-0 lg:flex items-center w-1/2" style="z-index: -1;">
       <svg
-        class="transform translate-x-1/2 w-full fill-current text-indigo-50"
+        class="transform scale-125 xl:scale-105 translate-x-1/3 2xl:translate-x-1/2 w-full fill-current text-brand-pink-600"
         viewBox="0 0 200 200"
         xmlns="http://www.w3.org/2000/svg">
-        <path d="M36.5,-58.5C45.5,-51,49.8,-37.8,51.8,-25.9C53.9,-13.9,53.6,-3.1,54.3,9.4C55,22,56.7,36.3,52.2,49.9C47.6,63.5,36.9,76.4,24,79C11.1,81.5,-4.1,73.6,-14.9,64.3C-25.6,54.9,-32,44.1,-42.6,35.1C-53.2,26.1,-68.2,19,-74.7,7.6C-81.3,-3.9,-79.6,-19.7,-70.8,-29.6C-62.1,-39.6,-46.3,-43.6,-33.4,-49.3C-20.4,-55,-10.2,-62.4,1.8,-65.1C13.7,-67.9,27.5,-66,36.5,-58.5Z" transform="translate(100 100)" />
+        <path d="M56.3,-42.2C71.2,-26.2,80.4,-2.9,76,17.6C71.5,38,53.4,55.6,32.9,63.7C12.5,71.8,-10.4,70.4,-28.8,61C-47.3,51.7,-61.4,34.5,-68.1,13.2C-74.8,-8,-74.2,-33.3,-61.6,-48.8C-49,-64.3,-24.5,-70.1,-1.9,-68.6C20.7,-67.1,41.3,-58.3,56.3,-42.2Z" transform="translate(100 100)" />
       </svg>
     </div>
   </div>
