@@ -1,7 +1,7 @@
 <template>
   <div class="relative overflow-hidden z-20">
     <div class="container">
-      <div class="w-full lg:w-2/3 py-40 md:py-52 lg:py-40 md:ml-10 xl:ml-40 bg-gray-200s ">
+      <div class="w-full lg:w-2/3 py-40 md:py-52 lg:py-40 lg:ml-10 xl:ml-40 bg-gray-200s ">
         <div class="sm:text-center lg:text-left">
           <h1 class="text-4xl tracking-tight font-extrabold text-brand-green-800 sm:text-5xl md:text-6xl xl:text-7xl">
             Data to enrich your online business
