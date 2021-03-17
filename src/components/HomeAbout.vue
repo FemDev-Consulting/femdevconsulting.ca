@@ -6,14 +6,16 @@
           Hello
         </div>
         <div>
-          <h2 class="lg:text-2xl font-bold text-brand-green-800">
+          <h2 class="lg:text-4xl font-bold text-brand-green-800">
             About us
           </h2>
+          <!--
           <p class="mt-2 text-4xl text-gray-900 font-extrabold">
-            Used by the world's most average companies
+            Sub title
           </p>
+          -->
           <p class="mt-6 text-xl  text-gray-600  leading-relaxed">
-            Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+            FemDev is an Ottawa-based global development consulting firm providing feminist research, evaluation and analysis services. We partner with organizations that are committed to advancing gender equality, social justice and human rights.
           </p>
           <!--
           <div class="mt-6">
