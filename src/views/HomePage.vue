@@ -1,9 +1,9 @@
 <template>
   <div>
     <home-hero />
+    <home-clients />
     <home-about />
     <home-services />
-    <home-clients />
     <home-contact />
   </div>
 </template>
