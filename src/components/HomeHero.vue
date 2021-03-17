@@ -1,23 +1,25 @@
 <template>
   <div class="relative overflow-hidden z-20">
     <div class="container">
-      <div class="w-full lg:w-2/3 py-40 md:py-52 lg:py-40 lg:ml-10 xl:ml-40 bg-gray-200s ">
+      <div class="w-full lg:w-2/3 py-40 md:py-52 lg:py-40 lg:ml-10 xl:ml-40">
         <div class="sm:text-center lg:text-left">
-          <h1 class="text-4xl tracking-tight font-extrabold text-brand-green-800 sm:text-5xl md:text-6xl xl:text-7xl">
-            Data to enrich your online business
+          <h1 class="tracking-normal font-extrabold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-7xl">
+            Passionate about feminist approaches to research, evaluation and analysis.
           </h1>
+          <!--
           <p class="mt-3 leading-loose text-base text-brand-green-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-10 md:text-3xl lg:mx-0">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
           </p>
-          <div class="mt-5 sm:mt-8 md:mt-10 sm:flex sm:justify-center lg:justify-start">
+          -->
+          <div class="mt-5 sm:mt-8 md:mt-20 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
               <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-green-600 hover:bg-brand-green-700 md:py-4 md:text-lg md:px-10">
-                Get started
+                Work With Us
               </a>
             </div>
             <div class="mt-3 sm:mt-0 sm:ml-3">
               <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-brand-green-700 bg-brand-green-100 hover:bg-brand-green-300 md:py-4 md:text-lg md:px-10">
-                Live demo
+                Our Services
               </a>
             </div>
           </div>
