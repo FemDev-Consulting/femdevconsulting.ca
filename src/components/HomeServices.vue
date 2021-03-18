@@ -1,11 +1,12 @@
 <template>
   <div>
-    <div class="bg-brand-green-700">
-      <div class="md:container py-40 lg:w-5/6 ">
-        <h2 class="text-4xl font-extrabold text-white tracking-tight">
+    <div class="bg-white">
+      <div class="container py-40 w-full lg:w-3/4">
+
+        <h2 class="text-4xl font-extrabold text-brand-green-900 tracking-tight">
           Our Services
         </h2>
-         <p class="mt-4 max-w-3xl text-xl text-brand-green-200">
+        <p class="mt-4 max-w-3xl text-xl text-gray-600">
           Our expertise in gender equality and women’s rights is diverse, ranging from education and decent employment, to health and gender-based violence, to social norms and care work. We work with organizations to provide the following types of services:
         </p>
         <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
@@ -13,16 +14,16 @@
           <div
             v-for="service in services"
             :key="service.title" >
-            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10 shadow-sm">
+            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-brand-green-600 to-brand-green-700 shadow-sm">
               <!-- Heroicon name: outline/inbox -->
               <div v-html="service.svg">
               </div>
             </div>
             <div class="mt-6">
-              <h3 class="text-xl font-medium text-white">
+              <h3 class="text-xl font-medium text-brand-green-700">
                 {{ service.title }}
               </h3>
-              <p class="mt-2 text-base text-brand-green-200">
+              <p class="mt-2 text-base text-gray-600">
                 {{ service.description }}
               </p>
             </div>
