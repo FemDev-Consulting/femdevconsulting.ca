@@ -1,5 +1,5 @@
 <template>
-  <div class=" bg-brand-green-50">
+  <div class=" bg-white">
     <div class="container">
       <div class="py-40 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 lg:items-center">
         <div class="bg-brand-pink-600 flex items-center py-64 ">
