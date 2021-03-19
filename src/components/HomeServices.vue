@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="bg-white">
-      <div class="container py-40 w-full lg:w-3/4">
+      <div class="container py-32">
 
-        <h2 class="text-4xl font-extrabold text-brand-green-900 tracking-tight">
+        <h2 class="text-5xl font-extrabold text-brand-green-900 tracking-tight">
           Our Services
         </h2>
-        <p class="mt-4 max-w-3xl text-xl text-gray-600">
+        <p class="mt-4  text-2xl text-gray-600 max-w-prose">
           Our expertise in gender equality and women’s rights is diverse, ranging from education and decent employment, to health and gender-based violence, to social norms and care work. We work with organizations to provide the following types of services:
         </p>
         <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
@@ -20,10 +20,10 @@
               </div>
             </div>
             <div class="mt-6">
-              <h3 class="text-xl font-medium text-brand-green-700">
+              <h3 class="text-2xl font-medium text-brand-green-700">
                 {{ service.title }}
               </h3>
-              <p class="mt-2 text-base text-gray-600">
+              <p class="mt-2 text-xl text-gray-600">
                 {{ service.description }}
               </p>
             </div>
