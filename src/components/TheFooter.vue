@@ -1,6 +1,6 @@
 <template>
   <div>
-    <footer class=" bg-brand-green-900 mt-20">
+    <footer class=" bg-brand-green-900 ">
       <h2 class="sr-only">Site footer information</h2>
       <div class="container py-20 md:flex md:items-center md:justify-between">
         <div class="flex justify-center space-x-6 md:order-2">
