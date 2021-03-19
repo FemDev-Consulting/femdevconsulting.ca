@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="bg-gradient-to-b from-brand-green-50 to-white">
+    <div class="bg-gray-100">
       <div class="container">
-        <div class="py-40 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+        <div class="py-32 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div class="bg-brand-pink-600 flex items-center">
             Hello
           </div>
