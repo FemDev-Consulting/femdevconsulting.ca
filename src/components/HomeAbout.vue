@@ -1,7 +1,7 @@
 <template>
   <div class="relative overflow-hidden z-20">
-    <div class="container flex flex-row-reverse">
-      <div class="w-full lg:w-2/5 py-40 md:py-52 lg:py-52 lg:ml-10 xl:ml-40">
+    <div class="container flex justify-center">
+      <div class="w-full lg:w-1/2 py-40 md:py-52 lg:py-60 lg:ml-10 xl:ml-40">
         <div class="sm:text-center lg:text-left">
           <h1 class="tracking-normal font-extrabold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-5xl">
             About us
