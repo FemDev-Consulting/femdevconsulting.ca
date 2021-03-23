@@ -1,35 +1,41 @@
 <template>
-  <div>
-    <div class="bg-white">
-      <div class="container py-32">
+  <div class="bg-white">
+    <div class="container bg-gray-1s00 w-full xl:w-2/3 rounded-2xl ">
+      <div class="xl:py-20">
 
-        <h2 class="text-5xl font-extrabold text-brand-green-900 tracking-tight">
+        <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-6xl">
           Our Services
         </h2>
-        <p class="mt-4  text-2xl text-gray-600 max-w-prose">
+
+        <p class="mt-10 text-2xl text-gray-900 leading-relaxed font-light max-w-prose">
           Our expertise in gender equality and women’s rights is diverse, ranging from education and decent employment, to health and gender-based violence, to social norms and care work. We work with organizations to provide the following types of services:
         </p>
-        <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
 
-          <div
+        <ul class="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-10">
+
+          <li
             v-for="service in services"
-            :key="service.title" >
+            :key="service.title"
+            class="bg-gray-50 p-10 rounded-2xl">
+
             <div class="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-brand-green-600 to-brand-green-700 shadow-sm">
               <!-- Heroicon name: outline/inbox -->
               <div v-html="service.svg">
               </div>
             </div>
-            <div class="mt-6">
-              <h3 class="text-2xl font-medium text-brand-green-700">
-                {{ service.title }}
-              </h3>
-              <p class="mt-2 text-xl text-gray-600">
-                {{ service.description }}
-              </p>
-            </div>
-          </div>
 
-        </div>
+            <h3 class="mt-6 text-2xl font-medium text-brand-green-700">
+              {{ service.title }}
+            </h3>
+
+            <p class="mt-2 text-xl text-gray-600">
+              {{ service.description }}
+            </p>
+
+          </li>
+
+        </ul>
+
       </div>
     </div>
   </div>
