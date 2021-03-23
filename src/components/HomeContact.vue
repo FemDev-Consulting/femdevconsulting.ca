@@ -6,12 +6,15 @@
         <!-- First column -->
         <div class="w-1/2">
           <div class="pr-10">
-            <h2 class="text-5xl font-extrabold text-brand-green-800 tracking-tight">
+
+            <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-5xl">
               Get in touch
             </h2>
-            <p class="my-10 text-2xl text-gray-600 max-w-prose">
+
+            <p class="mt-10 text-xl text-gray-900 leading-relaxed font-light">
               Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
             </p>
+
             <dl class="mt-8 text-base text-gray-500">
               <div class="mt-6">
                 <dt class="sr-only">Phone number</dt>

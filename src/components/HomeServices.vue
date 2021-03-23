@@ -3,11 +3,11 @@
     <div class="container bg-gray-1s00 w-full xl:w-2/3 rounded-2xl ">
       <div class="xl:py-20">
 
-        <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-6xl">
+        <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-5xl">
           Our Services
         </h2>
 
-        <p class="mt-10 text-2xl text-gray-900 leading-relaxed font-light max-w-prose">
+        <p class="mt-10 text-xl text-gray-800 leading-relaxed font-light max-w-prose">
           Our expertise in gender equality and women’s rights is diverse, ranging from education and decent employment, to health and gender-based violence, to social norms and care work. We work with organizations to provide the following types of services:
         </p>
 

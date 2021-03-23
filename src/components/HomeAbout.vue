@@ -4,10 +4,10 @@
       <div class="w-full lg:w-1/2 py-40 md:py-52 lg:py-52 lg:ml-10 xl:ml-40">
         <div class="sm:text-center lg:text-left">
 
-          <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-6xl">
+          <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-5xl">
             About us
           </h2>
-          <p class="mt-10 text-2xl text-gray-900 leading-relaxed font-light max-w-prose">
+          <p class="mt-10 text-xl text-gray-900 leading-relaxed font-light max-w-prose">
             FemDev is an Ottawa-based global development consulting firm providing feminist research, evaluation and analysis services. We partner with organizations that are committed to advancing gender equality, social justice and human rights.
           </p>
 
