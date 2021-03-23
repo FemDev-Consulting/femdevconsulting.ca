@@ -11,7 +11,7 @@
               Get in touch
             </h2>
 
-            <p class="mt-10 text-xl text-gray-900 leading-relaxed font-light">
+            <p class="mt-10 text-xl text-gray-700 leading-loose max-w-prose">
               Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
             </p>
 
@@ -46,18 +46,48 @@
          <!-- Second column -->
          <div class="w-1/2">
           <div class=" p-10 bg-brand-green-200 rounded-2xl">
+
+            <h2 class="tracking-normal font-bold text-brand-green-800 text-2xl">
+              Contact Us
+            </h2>
+
+            <p class="mt-2 mb-5 text-lg text-gray-900 leading-relaxed">
+              Fill out the form below to send us a message.
+            </p>
+
+
             <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
               <div>
-                <label for="full_name" class="sr-only">Full name</label>
-                <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Full name">
+                <label for="full_name" class="block text-sm font-medium text-gray-700 mb-2">Full name</label>
+                <input
+                  type="text"
+                  name="full_name"
+                  id="full_name"
+                  autocomplete="name"
+                  placeholder="Jane Smith"
+                  class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500
+                    focus:border-brand-green-500 border-gray-300 rounded-md">
               </div>
               <div>
-                <label for="email" class="sr-only">Email</label>
-                <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Email">
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  placeholder="harley.quinne@justiceleague.com"
+                  class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500
+                    focus:border-brand-green-500 border-gray-300 rounded-md">
               </div>
               <div>
-                <label for="message" class="sr-only">Message</label>
-                <textarea id="message" name="message" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Message"></textarea>
+                <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Please include a message"
+                  class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500
+                  focus:border-brand-green-500 border-gray-300 rounded-md" ></textarea>
               </div>
               <div>
                 <button type="submit" class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-xl

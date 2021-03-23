@@ -6,7 +6,7 @@
      <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-5xl text-center">
         Our Clients
       </h2>
-      <p class="mt-10 text-xl text-gray-900 leading-relaxed font-light text-center max-w-prose mx-auto">
+      <p class="mt-10 text-xl text-gray-700 leading-loose max-w-prose text-center mx-auto">
         We are proud to partner with organizations that are committed to advancing gender equality,
         social justice and human rights.
       </p>

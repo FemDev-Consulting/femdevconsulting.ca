@@ -7,7 +7,7 @@
           Our Services
         </h2>
 
-        <p class="mt-10 text-xl text-gray-800 leading-relaxed font-light max-w-prose">
+        <p class="mt-10 text-xl text-gray-700 leading-loose max-w-prose">
           Our expertise in gender equality and women’s rights is diverse, ranging from education and decent employment, to health and gender-based violence, to social norms and care work. We work with organizations to provide the following types of services:
         </p>
 
