@@ -1,44 +1,46 @@
 <template>
-  <div class="bg-white">
-    <div class="container bg-gray-1s00 w-full xl:w-2/3 rounded-2xl ">
-      <div class="xl:py-20">
+  <section id="services">
+    <div class="bg-white">
+      <div class="container bg-gray-1s00 w-full xl:w-2/3 rounded-2xl ">
+        <div class="xl:py-20">
 
-        <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-5xl">
-          Our Services
-        </h2>
+          <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-5xl">
+            Our Services
+          </h2>
 
-        <p class="mt-10 text-xl text-gray-700 leading-loose max-w-prose">
-          Our expertise in gender equality and women’s rights is diverse, ranging from education and decent employment, to health and gender-based violence, to social norms and care work. We work with organizations to provide the following types of services:
-        </p>
+          <p class="mt-10 text-xl text-gray-700 leading-loose max-w-prose">
+            Our expertise in gender equality and women’s rights is diverse, ranging from education and decent employment, to health and gender-based violence, to social norms and care work. We work with organizations to provide the following types of services:
+          </p>
 
-        <ul class="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-10">
+          <ul class="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-10">
 
-          <li
-            v-for="service in services"
-            :key="service.title"
-            class="bg-gray-50 p-10 rounded-2xl">
+            <li
+              v-for="service in services"
+              :key="service.title"
+              class="bg-gray-50 p-10 rounded-2xl">
 
-            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-brand-green-600 to-brand-green-700 shadow-sm">
-              <!-- Heroicon name: outline/inbox -->
-              <div v-html="service.svg">
+              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-brand-green-600 to-brand-green-700 shadow-sm">
+                <!-- Heroicon name: outline/inbox -->
+                <div v-html="service.svg">
+                </div>
               </div>
-            </div>
 
-            <h3 class="mt-6 text-2xl font-medium text-brand-green-700">
-              {{ service.title }}
-            </h3>
+              <h3 class="mt-6 text-2xl font-medium text-brand-green-700">
+                {{ service.title }}
+              </h3>
 
-            <p class="mt-2 text-xl text-gray-600">
-              {{ service.description }}
-            </p>
+              <p class="mt-2 text-xl text-gray-600">
+                {{ service.description }}
+              </p>
 
-          </li>
+            </li>
 
-        </ul>
+          </ul>
 
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
