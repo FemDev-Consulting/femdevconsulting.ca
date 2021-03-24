@@ -25,7 +25,9 @@
             <div class="mt-3 sm:mt-0 sm:ml-3">
               <a
                 href="#services"
-                class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-brand-green-700 bg-brand-green-100 hover:bg-brand-green-300 md:py-4 md:text-lg md:px-10">
+                class="w-full flex items-center justify-center px-8 py-3
+                  border border-transparent text-base font-medium rounded-md text-brand-green-700
+                  bg-brand-green-100 hover:bg-brand-green-300 md:py-4 md:text-lg md:px-10">
                 Our Services
               </a>
             </div>
