@@ -72,6 +72,7 @@
                     id="full_name"
                     autocomplete="name"
                     placeholder="Jane Smith"
+                    required
                     class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500
                       focus:border-brand-green-500 border-gray-300 rounded-md">
                 </div>
@@ -83,6 +84,7 @@
                     type="email"
                     autocomplete="email"
                     placeholder="harley.quinne@justiceleague.com"
+                    required
                     class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500
                       focus:border-brand-green-500 border-gray-300 rounded-md">
                 </div>
@@ -93,6 +95,7 @@
                     name="message"
                     rows="4"
                     placeholder="Please include a message"
+                    required
                     class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-brand-green-500
                     focus:border-brand-green-500 border-gray-300 rounded-md" ></textarea>
                 </div>

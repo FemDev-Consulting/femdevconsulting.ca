@@ -17,9 +17,9 @@
             <li
               v-for="service in services"
               :key="service.title"
-              class="bg-gray-50 p-10 rounded-2xl">
+              class="bg-gray-50 p-10 rounded-2xl text-center md:text-left">
 
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-brand-green-600 to-brand-green-700 shadow-sm">
+              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-brand-green-600 to-brand-green-700 shadow-sm mx-auto md:mx-0">
                 <!-- Heroicon name: outline/inbox -->
                 <div v-html="service.svg">
                 </div>
@@ -29,7 +29,7 @@
                 {{ service.title }}
               </h3>
 
-              <p class="mt-2 text-xl text-gray-600">
+              <p class="mt-2 text-lg md:text-xl text-gray-600">
                 {{ service.description }}
               </p>
 

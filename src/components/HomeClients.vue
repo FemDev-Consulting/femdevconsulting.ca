@@ -1,12 +1,12 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="bg-white">
-    <div class="container mt-20 mb-28 py-12 lg:px-20 w-2/3 ">
+    <div class="container mt-20 mb-28 py-12 lg:px-20 md:w-2/3">
 
-     <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-5xl text-center">
+     <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-5xl md:text-center">
         Our Clients
       </h2>
-      <p class="mt-10 text-xl text-gray-700 leading-loose max-w-prose text-center mx-auto">
+      <p class="mt-10 text-xl text-gray-700 leading-loose max-w-prose md:text-center mx-auto">
         We are proud to partner with organizations that are committed to advancing gender equality,
         social justice and human rights.
       </p>
@@ -17,11 +17,11 @@
         social justice and human rights.
       </p>
       -->
-      <div class="mt-20 grid grid-cols-2 md:grid-cols-6 lg:grid-cols-4 lg:gap-y-20 items-center">
-        <div class=" col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-          <img class="h-12 lg:h-8 object-contain" src="/images/clients/bill-and-melinda-gates-foundation.jpg" alt="">
+      <div class="mt-20 grid grid-cols-1 md:grid-cols-6 lg:grid-cols-2 lg:gap-y-20 items-center">
+        <div class="flex justify-center bg-red-100">
+          <img class="h-22 lg:h-8 object-contain" src="/images/clients/bill-and-melinda-gates-foundation.jpg" alt="">
         </div>
-        <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+        <div class="flex justify-center bg-gray-600">
           <img class="h-12 lg:h-8 object-contain" src="/images/clients/data2x.png" alt="">
         </div>
         <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
