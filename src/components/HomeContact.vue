@@ -2,9 +2,9 @@
   <section id="contact">
     <div class=" bg-white">
       <div class="container xl:py-32">
-        <div class="mb-20 flex flex-col md:flex-row flex-nowrap">
-          <!-- First column -->
-          <div class="w-full md:w-1/2">
+        <div class="mb-20 flex flex-col lg:flex-row flex-nowrap">
+          <!-- First column  -->
+          <div class="w-full lg:w-1/2">
             <div class="pr-10 pb-20 md:pr-0">
 
               <h2 class="tracking-normal font-bold text-brand-green-800 text-4xl sm:text-5xl md:text-6xl xl:text-5xl">
@@ -44,7 +44,7 @@
             </div>
           </div>
           <!-- Second column -->
-          <div class="w-full md:w-1/2">
+          <div class="w-full lg:w-1/2">
             <div class="p-10 bg-brand-green-200 rounded-2xl">
 
               <h2 class="tracking-normal font-bold text-brand-green-800 text-2xl">
