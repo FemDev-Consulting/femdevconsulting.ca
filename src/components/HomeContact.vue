@@ -56,7 +56,14 @@
               </p>
 
 
-              <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
+              <form
+                method="POST"
+                class="grid grid-cols-1 gap-y-6"
+                name="contact"
+                data-netlify="true">
+
+                <input type="hidden" name="form-name" value="contact" />
+
                 <div>
                   <label for="full_name" class="block text-sm font-medium text-gray-700 mb-2">Full name</label>
                   <input
