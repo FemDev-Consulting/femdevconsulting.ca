@@ -8,7 +8,7 @@
             About us
           </h2>
           <p class="mt-10 text-xl text-gray-700 leading-loose max-w-prose">
-            FemDev is an Ottawa-based global development consulting firm providing feminist research, evaluation and analysis services. We partner with organizations that are committed to advancing gender equality, social justice and human rights.
+            FemDev is an Ottawa-based global development consulting firm providing feminist research, evaluation and analysis services. Our expertise in gender equality and women’s rights is diverse, ranging from education and decent employment, to health and gender-based violence, to social norms and care work.
           </p>
 
         </div>
